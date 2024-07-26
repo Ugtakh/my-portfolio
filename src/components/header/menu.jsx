@@ -1,15 +1,13 @@
 const Menu = ({ menuList }) => {
-	return (
-		<div>
-			<ul className="flex">
-				{menuList.map((menu) => (
-					<li>
-						<a href={menu.link}>{menu.label}</a>
-					</li>
-				))}
-			</ul>
-		</div>
-	);
+  return (
+    <ul className="flex flex-col space-x-4 md:flex-row ">
+      {menuList.map((menu) => (
+        <a href={`${menu.link}`} className="text-gray-700 dark:text-gray-200">
+          {menu.label}
+        </a>
+      ))}
+    </ul>
+  );
 };
 
 export default Menu;
