@@ -4,9 +4,10 @@ import MobileMenu from "./mobile-menu";
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
 const menuList = [
-  { label: "About", link: "/" },
-  { label: "Work", link: "#about" },
-  { label: "Testimonials", link: "#work" },
+  { label: "About", link: "#about" },
+  { label: "Skills", link: "#skill" },
+  { label: "Experience", link: "#experience" },
+  { label: "Project", link: "#project" },
   { label: "Contact", link: "#contact" },
 ];
 

@@ -1,7 +1,19 @@
+import About from "@/components/about";
+import Contact from "@/components/contact";
+import Experiences from "@/components/experience";
+import Projects from "@/components/projects";
+import Hero from "@/components/sections/hero";
+import Skills from "@/components/skills";
+
 export default function Home() {
   return (
-    <main className="m-10">
-      <h1>My Portfolio</h1>
+    <main>
+      <Hero />
+      <About />
+      <Skills />
+      <Experiences />
+      <Projects />
+      <Contact />
     </main>
   );
 }
