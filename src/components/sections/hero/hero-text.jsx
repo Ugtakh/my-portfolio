@@ -26,15 +26,15 @@ const HeroText = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="flex-1 p-20"
+      className="flex-1"
     >
-      <h1 className="text-5xl font-bold">
-        Hi, I'm Ugtakhbayar{" "}
+      <h1 className="text-4xl font-semibold md:text-5xl md:font-bold">
+        Hi, I'm UGT{" "}
         <span role="img" aria-label="wave">
           👋
         </span>
       </h1>
-      <p className="mt-4 text-xl">
+      <p className="mt-4 text-base">
         I specialize in full stack development, particularly with React.js and
         Node.js. My main goal is to create exceptional digital experiences that
         are fast, visually appealing, and accessible to everyone. With over 7
