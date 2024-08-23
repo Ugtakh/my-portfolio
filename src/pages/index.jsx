@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      {/* <About />
+      <About />
       <Skills />
       <Experiences />
       <Projects />
-      <Contact /> */}
+      <Contact />
     </main>
   );
 }

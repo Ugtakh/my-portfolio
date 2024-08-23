@@ -20,7 +20,7 @@ const socialLinks = [
   },
 ];
 
-const HeroText = () => {
+const HeroText = ({ ner }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: -50 }}
@@ -29,7 +29,7 @@ const HeroText = () => {
       className="flex-1"
     >
       <h1 className="text-4xl font-semibold md:text-5xl md:font-bold">
-        Hi, I'm UGT{" "}
+        Hi, I'm Ugtakhbayar
         <span role="img" aria-label="wave">
           👋
         </span>
